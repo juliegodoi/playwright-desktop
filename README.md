@@ -1,4 +1,4 @@
-# Automação de Testes Desktop: Electron + Playwright
+# Automação de Testes Desktop: Playwright + Electron
 
 Este repositório contém um projeto de automação de testes para aplicações desktop utilizando **Playwright**. O foco é validar as funcionalidades principais de uma aplicação de lista de tarefas (To-Do List) desenvolvida em **Electron**.
 
@@ -77,9 +77,9 @@ O arquivo `todo.spec.js` utiliza a biblioteca oficial do Playwright para Electro
 ### 📸 Evidências de Sucesso
 Após a execução dos testes, você encontrará as seguintes imagens na raiz do projeto:
 
-| Adição de Tarefa | Conclusão de Tarefa | Remoção de Tarefa |
+| Adição de Tarefa | Marcação de Conclusão | Exclusão de Tarefa |
 | :---: | :---: | :---: |
-| ![Sucesso Adição](./success-add.png) | ![Sucesso Conclusão](./success-complete.png) | ![Sucesso Remoção](./success-remove.png) |
+| <img width="300" alt="Adição de Tarefa" src="https://github.com/user-attachments/assets/e340e414-1601-41fd-bb0d-ebace41aa8a0" /> | <img width="300" alt="Marcação de Conclusão" src="https://github.com/user-attachments/assets/5252ef59-4a57-41a1-a8a2-ff9797c27db2" /> | <img width="300" alt="Exclusão de Tarefa" src="https://github.com/user-attachments/assets/4b29f684-5f6b-4585-962b-f684f806ee7c" /> |
 
 
 ---
@@ -108,9 +108,5 @@ Você pode configurar isso de duas formas:
 A aplicação utilizada como alvo desses testes foi desenvolvida por **iammuhammadasimofficial**. 
 Você pode encontrar o repositório original aqui: [electron-todolist-app](https://github.com/iammuhammadasimofficial/electron-todolist-app).
 
----
-
-## 📝 Notas
-Sempre verifique se a pasta `node_modules` da aplicação alvo existe, pois o teste busca o executável do Electron dentro dela.
 
 
